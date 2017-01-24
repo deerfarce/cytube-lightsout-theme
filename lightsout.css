@@ -57,7 +57,7 @@ body {
     border-color: #3e5f94!important;
 }
 
-.btn-default {
+.btn-default, .input-group-addon {
     background-image: -webkit-linear-gradient(#404040,#222 60%,#111)!important;
     background-image: -o-linear-gradient(#404040,#222 60%,#111)!important;
     background-image: -webkit-gradient(linear,left top,left bottom,from(#404040),color-stop(60%,#222),to(#111))!important;
