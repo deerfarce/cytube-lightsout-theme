@@ -18,11 +18,11 @@ body {
     top: 2px!important;
 }
 
-#afkCount .activeUserCount {
+#afkCount .activeusercount {
     color: #808080!important;
 }
 
-#afkCount .afkUserCount {
+#afkCount .afkusercount {
     color: #666!important;
 }
 
@@ -94,4 +94,8 @@ div#plmeta, ul#queue {
 
 #chatwrap {
     background: none!important;
+}
+
+#userlist .nick-highlight {
+    background-color: rgba(94, 52, 142, 0.6);
 }
