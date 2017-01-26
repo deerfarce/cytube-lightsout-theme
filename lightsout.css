@@ -75,8 +75,13 @@ body {
     border-color: rgba(0,0,0,.6)!important;
 }
 
-#voteskip.btn.btn-sm.btn-default:hover {
+#voteskip.btn.btn-sm.btn-default:hover, .pm-buffer.linewrap {
     background-color:#222!important;
+
+}
+
+.panel-default>.panel-heading {
+    background-color: #333!important;
 }
 
 .dropdown-menu {
