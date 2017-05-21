@@ -5,6 +5,10 @@
     updated 5/21/17 12:20am
 */
 
+.lightsoutbtn.label-lightsout {
+    background-color: #2a1f56;
+}
+
 body {
     background-color: #000;
 }
