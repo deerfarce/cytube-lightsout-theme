@@ -27,7 +27,7 @@ body {
 }
 
 #messagebuffer, #userlist {
-    background-color: #222!important;
+    background-color: #111!important;
     border-bottom: none!important;
 }
 
@@ -44,12 +44,20 @@ body {
 }
 
 #chatinput #chatline, #messagebuffer, #userlist {
-    border-color: #161616!important;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+#messagebuffer {
+    border-right: 1px solid black;
 }
 
 #chatinput #chatline {
-    border-color: #222 #111 #111!important;
-    box-shadow: 0 3px 8px -3px black inset;
+    box-shadow: none!important;
+    border-radius: 0;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
 }
 
 .form-control:focus {
@@ -58,15 +66,14 @@ body {
 }
 
 .btn-default, .input-group-addon {
-    background-image: -webkit-linear-gradient(#404040,#222 60%,#111)!important;
-    background-image: -o-linear-gradient(#404040,#222 60%,#111)!important;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#404040),color-stop(60%,#222),to(#111))!important;
-    background-image: linear-gradient(#404040,#222 60%,#111)!important;
+    background: #333;
+    background-image: none!important;
+    border-color: black!important;
 }
 
 .btn-default {
-    color: #aaa!important;
-    background-color: #262626!important;
+    color: #ddd;
+    background-color: #222!important;
 }
 
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
@@ -99,6 +106,8 @@ input.form-control[type="text"], input.form-control[type="password"], input.form
 
 .queue_entry {
     background-color: #161616!important;
+    border: 0;
+    border-bottom: 1px solid black;
 }
 
 div#plmeta, ul#queue {
@@ -106,7 +115,7 @@ div#plmeta, ul#queue {
 }
 
 .queue_active.queue_temp {
-    background-color: #505050!important;
+    background-color: #444!important;
 }
 
 #resize-video-larger, #resize-video-smaller {
@@ -121,6 +130,55 @@ div#plmeta, ul#queue {
     background: none!important;
 }
 
+.userlist_item {
+    line-height: 16px;
+    font-size:9pt;
+}
+
+.userlist_item:hover {
+    background-color: #371c50;
+}
+
 #userlist .nick-highlight {
     background-color: rgba(94, 52, 142, 0.6);
+}
+
+#colorFilters button {
+    background-color: #1d1d1d!important;
+    border-radius: 0;
+    border: 0;
+    border-right: 1px solid black;
+    background-image: none!important;
+    margin: 0;   
+}
+
+.timestamp {
+    color: #444;
+}
+
+.qe_blame {
+    color: #bbb;
+    font-weight: normal;
+    font-size: 8pt;
+}
+
+#motdwrap {
+    background-color: #0a0a0a!important;
+    border: 0;
+    border-radius: 0;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid black;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #111;
+    border: 1px solid black;
+    border-bottom-color: transparent;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #111;
 }
