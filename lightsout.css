@@ -242,3 +242,9 @@ div#plmeta, ul#queue {
 }
 
 .modal-header, .modal-footer { border-color: black!important; }
+.nick-hover {
+    background-color: rgba(105, 181, 255, .25);
+}
+.nick-highlight {
+    background-color: rgba(234, 78, 128, 0.35);
+}
