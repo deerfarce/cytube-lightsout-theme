@@ -1,8 +1,8 @@
 /*
     zeratul
     https://github.com/zeratul0/cytube-lightsout-theme
-    v0.35
-    updated 6/3/17 2:12pm
+    v0.36
+    updated 6/3/17 2:20pm
 */
 
 .lightsoutbtn.label-lightsout {
@@ -242,9 +242,9 @@ div#plmeta, ul#queue {
 }
 
 .modal-header, .modal-footer { border-color: black!important; }
-.nick-highlight {
+#messagebuffer .nick-highlight {
     background-color: rgba(234, 78, 128, 0.35);
 }
-.nick-hover {
+#messagebuffer .nick-hover {
     background-color: rgba(105, 181, 255, .25);
 }
