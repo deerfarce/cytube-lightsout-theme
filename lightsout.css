@@ -1,8 +1,8 @@
 /*
     zeratul
     https://github.com/zeratul0/cytube-lightsout-theme
-    v0.37
-    updated 6/4/17 2:47am
+    v0.38
+    updated 6/8/17 12:26 AM
 */
 
 .lightsoutbtn.label-lightsout {
@@ -57,7 +57,7 @@ body .navbar {
     background: rgba(17,17,17,.8);
 }
 
-#chatline, #messagebuffer, #userlist {
+#chatwrap #chatline, #messagebuffer, #userlist {
     border: 0;
     border-top: 1px solid black;
     border-color: black!important;
@@ -67,7 +67,7 @@ body .navbar {
     border-right: 1px solid black;
 }
 
-#chatline {
+#chatwrap #chatline {
     box-shadow: none!important;
     border-radius: 0;
     border: 1px solid black!important;
