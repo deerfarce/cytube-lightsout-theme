@@ -1,8 +1,8 @@
 /*
     zeratul
     https://github.com/zeratul0/cytube-lightsout-theme
-    v0.38
-    updated 6/8/17 12:26 AM
+    v0.39
+    updated 9/16/17 12:26 AM
 */
 
 .lightsoutbtn.label-lightsout {
@@ -80,20 +80,22 @@ body .navbar {
     border-color: #3e5f94!important;
 }
 
-.btn-default, .input-group-addon {
+.input-group-addon {
     background: #333;
     background-image: none!important;
     border-color: black!important;
 }
 
-.btn-default {
+.btn-default, .ChatOptions .btn {
     color: #ddd;
+    background-image: none!important;
+    border-color: black!important;
     background-color: #222!important;
 }
 
-.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+.btn-default.active, .ChatOptions .btn:active, .ChatOptions .btn:focus, .ChatOptions .btn:hover, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
     color: #fff!important;
-    background-color: #222!important;
+    background-color: #333!important;
     border-color: rgba(0,0,0,.6)!important;
 }
 
@@ -247,4 +249,12 @@ div#plmeta, ul#queue {
 }
 #messagebuffer .nick-hover {
     background-color: rgba(105, 181, 255, .25);
+}
+
+#leftcontrols .btn, #rightcontrols .btn, .well .option .btn, .queue_entry .btn {
+    border: 1px solid black;
+}
+
+#leftpane .well {
+    border: 1px solid #0d0d0d!important;
 }
