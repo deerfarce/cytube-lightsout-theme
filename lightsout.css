@@ -1,8 +1,8 @@
 /*
     zeratul
     https://github.com/zeratul0/cytube-lightsout-theme
-    v0.39
-    updated 9/16/17 3:42 AM
+    v0.40
+    updated 12/11/17 9:40 PM
 */
 
 .lightsoutbtn.label-lightsout {
@@ -121,7 +121,7 @@ input.form-control[type="text"], input.form-control[type="password"], input.form
     border-color: #111!important;
 }
 
-.queue_entry {
+#queue .queue_entry {
     background-color: #161616!important;
     border: 0;
     border-bottom: 1px solid black;
