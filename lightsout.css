@@ -1,8 +1,8 @@
 /*
     zeratul
     https://github.com/zeratul0/cytube-lightsout-theme
-    v0.40
-    updated 12/11/17 9:40 PM
+    v0.41
+    updated 12/11/17 9:58 PM
 */
 
 .lightsoutbtn.label-lightsout {
@@ -140,7 +140,7 @@ div#plmeta, ul#queue {
     border: 0;
 }
 
-.queue_active.queue_temp {
+#queue .queue_active.queue_temp {
     background-color: #444!important;
 }
 
@@ -251,7 +251,7 @@ div#plmeta, ul#queue {
     background-color: rgba(105, 181, 255, .25);
 }
 
-#leftcontrols .btn, #rightcontrols .btn, .well .option .btn, .queue_entry .btn {
+#leftcontrols .btn, #rightcontrols .btn, .well .option .btn, #queue .queue_entry .btn {
     border: 1px solid black;
 }
 
