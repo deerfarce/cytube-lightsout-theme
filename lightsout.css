@@ -13,6 +13,31 @@ body {
     background-color: #000;
 }
 
+.profile-image {
+  border: 0;
+  border-radius: 0;
+  float: right;
+}
+
+.profile-box em {
+  color: #777;
+}
+
+.profile-box p {
+  background: #111;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+hr {
+  border-top: 1px solid #303030;
+}
+
+.profile-box {
+  background-color: #202020;
+  color: #bbb;
+}
+
 .alert-info {
     background-color: #032e42;
     border-color: #70a6fd;
